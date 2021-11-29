@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="../css/myCss.css">
+
+  <!-- Latest compiled and minified CSS -->
+    <link 
+      rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  </head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <!-- Hamburger -->
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="Tasks.html">Task Manager</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav" >
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Profile.html">Profile</a></li>
+        <li class="active"><a href="Tasks.html">Tasks</a></li>
+        <li><a href="Statistics.html">Statistics</a></li>
+        <li><a href="Help.html">Help</a></li>
+        <li><a href="../index.html">Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav><!--/.nav-collapse -->
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron" style="background-color: #00BCD4">
+        <div class="container" style="color: white">
+          <!-- Date and time -->
+          <h2 id='clockbox' style="text-align: center"></h2>
+          
+        </div>
+      </div>
+
+<!-- Image -->
+<div class="tasksCenter" style="text-align: center">
+            <img src="../images/tasks.png"
+                 alt="ideas for tasks" 
+                 width="400px%" 
+                 height="200px" />
+</div>
+
+<!-- Task input boxes -->
+  <div id="myDIV" class="header">
+    <div class="row justify-content-center">
+      <form class="form-inline text-center">
+      <br>
+      <br>
+      <div class="inputBox">
+      <p>
+      <input id="myInput" placeholder="Please type your task here.." class="w3-input" type="text">
+      </p>
+      <p>     
+      <input id="myNotes" placeholder="Notes..." class="w3-input" type="text">
+      </p>
+      <input onclick="newElement()" id="addButton" class="btn btn-primary btn-lg btn-block" type="submit" value="Add task">
+      </div>
+
+
+    </form>
+  </div>
+<!-- List -->
+<div class=helpSpace></div> 
+<ul id="myUL">
+</ul>
+  </div>
+<div class=helpSpace></div> 
+<div class=helpSpace></div> 
+
+
+<script type="text/javascript" src="../scripts/tasks.js"></script>
+
+</body>
+</html>
+
+</body>
+</html>

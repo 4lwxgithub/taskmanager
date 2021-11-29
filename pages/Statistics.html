@@ -1,0 +1,94 @@
+ <DOCTYPE HTML>
+<html>
+<head>
+<title> Task Manager </title>
+
+	<link rel="stylesheet" type="text/css" href="../css/myCss.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/dashboard/">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/jumbotron/">
+
+      <!-- Bootstrap core CSS -->
+<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <!-- Hamburger -->
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="Tasks.html">Task Manager</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav" >
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Profile.html">Profile</a></li>
+        <li><a href="Tasks.html">Tasks</a></li>
+        <li class="active"><a href="Statistics.html">Statistics</a></li>
+        <li><a href="Help.html">Help</a></li>
+        <li><a href="../index.html">Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav><!--/.nav-collapse -->
+
+<main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron" style="background-color: #E07700">
+        <div class="container" style="color: white">
+          <h1 class="display-3" >Statistics</h1>
+          <p>Here you can visualise your task managing performance. </p>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Total tasks (Weekly)</h2>
+            <p>
+              <img src="../images/dailyTasks.png"
+                 alt="bar chart of tasks per day" 
+                 width="450" 
+                 height="250" />
+            </p>
+            <p></p>
+          </div>
+          <div class="col-md-6">
+            <h2>Completed tasks (Monthly)</h2>
+            <p>
+              <img src="../images/cPie.png"
+                 alt="pie chart of tasks completed per month" 
+                 width="400" 
+                 height="270" />
+            </p>
+            <p></p>
+          </div>
+        </div>
+
+
+        <hr>
+
+      </div> <!-- /container -->
+
+</main>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+ <DOCTYPE HTML>
+<html>
+<head>
+<title> Task Manager </title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="../css/myCss.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <!-- Hamburger -->
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="Tasks.html">Task Manager</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav" >
+        <li class="active"><a href="Home.html">Home</a></li>
+        <li><a href="Profile.html">Profile</a></li>
+        <li><a href="Tasks.html">Tasks</a></li>
+        <li><a href="Statistics.html">Statistics</a></li>
+        <li><a href="Help.html">Help</a></li>
+        <li><a href="../index.html">Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav><!--/.nav-collapse -->
+
+
+<main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron" style="background-color: #6666CC">
+        <div class="container">
+          <h1 class="display-3" style="color: white">Welcome</h1>
+          <p  style="color: white">This task manager will help you stay on top of your daily tasks.</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-lg-3" style="text-align: center">
+            <a href="Profile.html"><h2>Profile</h2></a>
+            <p>Customise your task manager experience to you.</p>
+            <img src="../images/userImage.jpg"
+                 alt="example of profile image" 
+                 width="175" 
+                 height="175" />
+            
+          </div>
+          <div class="col-lg-3" style="text-align: center">
+            <a href="Tasks.html"><h2>Tasks</h2></a>
+            <p>Start adding your tasks now..</p>
+            <br>
+            <img  
+                 src="../images/to-doSticky.jpg"
+                 alt="sticky note" 
+                 width="250" 
+                 height="175" />
+           
+          </div>
+          <div class="col-lg-3" style="text-align: center">
+            <a href="Statistics.html"><h2>Statistics</h2></a>
+            <p>Visualise your task managing performance.</p>
+            <img src="../images/graph.png"
+                 alt="graph" 
+                 width="180" 
+                 height="150" />
+          </div>
+          <div class="col-md-3" style="text-align: center">
+            <a href="Help.html"><h2>Help</h2></a>
+            <p>Need help?</p>
+            <br>
+            
+            <img src="../images/help.png"
+                 alt="help" 
+                 width="130" 
+                 height="130" />
+            
+          </div>
+        </div>
+
+        <hr>
+
+      </div> <!-- /container -->
+
+</main>
+
+</body>
+</html>
